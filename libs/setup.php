@@ -13,5 +13,3 @@ $config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
 $config->set('dbpass', 'DXBytBRQHYD8NwDbjetu');
 ?>
-mysql://root:DXBytBRQHYD8NwDbjetu@containers-us-west-72.railway.app:7332/railway
-mysql -hcontainers-us-west-72.railway.app -uroot -pDXBytBRQHYD8NwDbjetu --port 7332 --protocol=TCP railway
